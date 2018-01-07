@@ -1,0 +1,129 @@
+/* html {
+    font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+    html {
+        font-size: 1.2rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    html {
+        font-size: 1.4rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 1.6rem;
+    }
+} */
+body{
+    color: rgb(255, 255, 255);
+}
+
+.bg{
+	margin:0;
+	padding:0;
+	background: linear-gradient(rgba(165, 162, 160, 0.5), rgba(18, 19, 18, 0.5)), url(../images/watercolor.jpg) no-repeat center top fixed;
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari*/
+	background-size: cover; /* version standardisée*/
+}
+
+.wow { 
+    visibility: visible;
+    backface-visibility: visible;
+}
+
+.navbar {
+    background-color: #41403F;
+    position: fixed;
+    top: 0;
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 1.3em;
+}
+
+.nav-item:hover {
+    color: black;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #1C2331;
+}
+
+footer.page-footer {
+    background-color: #1C2331;
+    margin-top: -1px;
+}
+
+
+h5{
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 3em;
+}
+
+.simpl{
+	font-style: italic;
+	font-weight: bold;
+}
+.blockquote-footer cite {
+    color: rgb(220, 224, 217);
+    font-size: 2em;
+}
+
+.imgPerso{
+    max-width: 100%;
+    height: auto;
+}
+
+.accueil{
+    height: 850px;
+}
+
+.container1{
+    height: 850px;
+    background-color:linear-gradient(rgba(243, 241, 239, 0.788), 
+    rgba(179, 83, 38, 0.664));
+     /* rgb(129, 82, 58); */
+}
+.actu{
+    height: 700px;
+    background-color :#282520;
+}
+
+.titre{
+	font-family: 'Sarpanch', sans-serif;
+    font-size: 3.5em;
+    margin-top: 5em;
+}
+cite{
+    font-size: 16px;
+}
+
+.test1{
+    height: 600px;
+    width: 50%;
+    background: rgba(177, 110, 166, 0.795);
+}
+
+.aboutMe{
+    height: 600px;
+    width: 50%;
+    background: rgba(146, 9, 201, 0.795);
+}
+.coder{
+    font-family: 'Baloo Da', cursive;
+    font-size: 3em;
+    margin-top: 2em;
+}
+
+/* position: fixed;
+bottom: 0;
+right: 0; */

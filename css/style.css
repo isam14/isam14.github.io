@@ -37,26 +37,13 @@ body{
 }
 
 .navbar {
-    background-color: #41403F;
-    position: fixed;
+    background-color: #282520;
+    /* position: fixed; */
     top: 0;
     font-family: 'Sarpanch', sans-serif;
     font-size: 1.3em;
 }
 
-.nav-item:hover {
-    color: black;
-}
-
-.scrolling-navbar {
-    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    transition: background .5s ease-in-out, padding .5s ease-in-out;
-}
-
-.top-nav-collapse {
-    background-color: #1C2331;
-}
 
 footer.page-footer {
     background-color: #1C2331;
@@ -119,11 +106,21 @@ cite{
     background: rgba(146, 9, 201, 0.795);
 }
 .coder{
-    font-family: 'Baloo Da', cursive;
+    font-family: 'Sarpanch', sans-serif;
     font-size: 3em;
     margin-top: 2em;
 }
-
+.back-to-top {
+	background-color: #282520;
+	color: white;
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	padding: .5em 1em;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
 /* position: fixed;
 bottom: 0;
 right: 0; */

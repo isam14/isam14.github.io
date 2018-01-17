@@ -10,7 +10,7 @@
     
     <!-- Latest compiled and minified CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.css" integrity="sha256-FzLeUqtB/XZzQ2hKxDG72xT4V/GKNR4cK5v6cv8oABU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.4/css/mdb.min.css" />
     <!-- css/ -->
     <link rel="stylesheet" href="css/style.css">
     
@@ -21,53 +21,74 @@
     
 </head>
 
-<body class="bg">
-    <div class="container1">
+<body class="bg" id="#top">
+    
+    
+    <!--Main Navigation-->
+    <header>
+        
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+            <a class="navbar-brand active" href="#"><strong>IM</strong></a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#actu">Actuellement</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#compet">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#xpepro">Expérience professionnelle</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dipl">Diplômes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inter">Intérêts</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://twitter.com/@isapelliz"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://github.com/isam14"><i class="fa fa-github major style1"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+    <!--Main Navigation-->
+    
+    
+    
+    
+    
+    
+    
+    <div class="container-fluid container1">
         <div class="accueil d-flex align-items-center d-flex justify-content-center">
-            <!--Navbar-->
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-                <div class="container">
-                    
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#actu">Actuellement</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#compet">Compétences</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#xpepro">Expérience professionnelle</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#dipl">Diplômes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#inter">Intérêts</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#soce">Liens sociaux</a>
-                            </li>
-                            <!-- <i class="fa fa-github float-right" aria-hidden="true"></i> -->
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!--/.Navbar-->
+            
             
             <div class="row">
                 <div class="col-md-12 mb-3">
                     <div class="text-center">
-                        <h5 class="font-up mb-3 font-bold animated bounceInDown">Développeur Web & Applications Mobiles</h5>
+                        <h5 class="mb-3 animated bounceInDown">Développeur Web & Applications Mobiles</h5>
                         
                         <footer class="blockquote-footer"><cite title=" Avez-vous un stage à me proposer?">En recherche de stage du 12 février au 20 avril 2018</cite></footer>
                         <div class="imgPerso mt-3">
                             <img src="images/isam.jpg" alt="photo perso" class="img-fluid img-thumbnail animated flipInY">
                         </div>
-                        <h1 class="display-1 mb-2 animated flipInX"> Isabelle </h1><h2 class="grey-text font-bold animated lightSpeedIn">MUCKENSTURM</h2>
+                        <h1 class="display-1 mb-2 animated flipInX"> Isabelle </h1><h2 class="DarkGgrey-text font-bold animated lightSpeedIn">MUCKENSTURM</h2>
                     </div>
                 </div>
             </div>
@@ -81,7 +102,7 @@
             <a class="btn btn-light-green btn-lg">2017</a> <a class="btn btn-grey btn-lg">2018</a>
         </div> -->
         
-        <div class="container">
+        <div class="container-fluid container">
             
             <!--Grid row-->
             <div class="row">
@@ -108,189 +129,189 @@
                 <!--Grid row-->
                 
             </div>
+        </section>       
+        <!-- Compétences -->
+        <section class="compet mt-5" id="compet">
             
-            <!-- Compétences -->
-            <section class="compet mt-5" id="compet">
+            <div class="text-center">
+                <a class="btn btn-light-green btn-lg">2017</a> <a class="btn btn-grey btn-lg">2018</a>
+            </div>
+            
+            <div class="container-fluid container mt-3">
                 
-                <div class="text-center">
-                    <a class="btn btn-light-green btn-lg">2017</a> <a class="btn btn-grey btn-lg">2018</a>
-                </div>
-                
-                <div class="container mt-3">
+                <!--Grid row-->
+                <div class="row">
                     
-                    <!--Grid row-->
-                    <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-12 text-center mb-3">
+                        <h2 class="font-bold light-green-text my-3" id="compet">COMPÉTENCES</h2>
+                        <h1 class="coder">&#60 coder &#62 langages &#60 /coder &#62</h1>
+                        <p class="card-text">Apprentissage en cours...
+                            <i class="fa fa-refresh fa-spin fa-fw"></i>
+                            <span class="sr-only">Loading...</span>
+                        </p>
+                        <p class="card-text"><i class="fa fa-git fa-2x" aria-hidden="true"></i>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                        </p>
                         
-                        <!--Grid column-->
-                        <div class="col-md-12 text-center mb-3">
-                            <h2 class="font-bold light-green-text my-3" id="compet">COMPÉTENCES</h2>
-                            <h1 class="coder">&#60 coder &#62 langages &#60 /coder &#62</h1>
-                            <p class="card-text">Apprentissage en cours...
-                                <i class="fa fa-refresh fa-spin fa-fw"></i>
-                                <span class="sr-only">Loading...</span>
-                            </p>
-                            <p class="card-text"><i class="fa fa-git fa-2x" aria-hidden="true"></i>
-                                <div class="rating">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                                </div>
-                            </p>
+                        
+                        
+                        
+                        <p class="card-text"><i class="fa fa-html5 fa-2x" aria-hidden="true"></i>
+                        </p>
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
                             
                             
-                            
-                            
-                            <p class="card-text"><i class="fa fa-html5 fa-2x" aria-hidden="true"></i>
-                            </p>
-                            <div class="rating">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                                
-                                
-                            </div>
-                            <p class="card-text"><i class="fa fa-css3 fa-2x" aria-hidden="true"></i>
-                            </p>
-                            <div class="rating">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                            </div>
-                            <p class="card-text"><img id="logoJS" class="img-fluid" src="images/js.png" alt="logo JS"/><img id="logo" class="img-fluid" src="images/jquery.png" alt="logo JQuery" /></p>
-                            <div class="rating">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                            </div>
-                            
-                            <p class="card-text"><img id="logo" class="img-fluid" src="images/semui.png" alt="logo Semantic UI"/> <img id="logo" class="img-fluid" src="images/found.png" src="logo Foundation" /></p>
-                            <div class="rating">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                            </div>
-                            
-                            <p class="card-text"><img id="logo" class="img-fluid" src="images/bootstrap.png" alt="logo Bootstrap"/></p>
-                            <div class="rating">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                            </div>
-                            
-                            <p class="card-text"><img id="logo" class="img-fluid" src="images/php_mysql.png" alt="logo PHP"/></p>
-                            <div class="rating">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                                
-                            </div>
+                        </div>
+                        <p class="card-text"><i class="fa fa-css3 fa-2x" aria-hidden="true"></i>
+                        </p>
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <p class="card-text"><img id="logoJS" class="img-fluid" src="images/js.png" alt="logo JS"/><img id="logo" class="img-fluid" src="images/jquery.png" alt="logo JQuery" /></p>
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        
+                        <p class="card-text"><img id="logo" class="img-fluid" src="images/semui.png" alt="logo Semantic UI"/> <img id="logo" class="img-fluid" src="images/found.png" src="logo Foundation" /></p>
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        
+                        <p class="card-text"><img id="logo" class="img-fluid" src="images/bootstrap.png" alt="logo Bootstrap"/></p>
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        
+                        <p class="card-text"><img id="logo" class="img-fluid" src="images/php_mysql.png" alt="logo PHP"/></p>
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
                             
                         </div>
                         
                     </div>
-                    <!--Grid column-->
                     
                 </div>
-                <!--Grid row-->
+                <!--Grid column-->
                 
-            </div>            
+            </div>
+            <!--Grid row-->
             
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            <!-- section accueil -->
-            
-            
-            
-            <div class="bg-info clearfix">
-                <button class="btn btn-secondary float-left">
-                    <!-- Example Button floated left -->
-                </button>
-                <button class="btn btn-secondary float-right">
-                    <!-- Example Button floated right -->
-                </button>
+        </div>            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- section accueil -->
+        
+        
+        
+        <div class="bg-info clearfix">
+            <button class="btn btn-secondary float-left">
+                <!-- Example Button floated left -->
+            </button>
+            <button class="btn btn-secondary float-right">
+                <!-- Example Button floated right -->
+            </button>
+        </div>
+        
+        
+        
+        <a class="btn-floating btn-lg purple-gradient"><i class="fa fa-bolt"></i></a>
+        <a class="btn-floating peach-gradient"><i class="fa fa-leaf"></i></a>
+        <a class="btn-floating btn-sm blue-gradient"><i class="fa fa-star"></i></a>
+        
+        <div class="container-fluid container1">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- <div class="wow animated slideInLeft " data-wow-delay="6s" titre text-center>
+                        &#60 coder &#62 ISABELLE MUCKENSTURM &#60 /coder &#62
+                        
+                    </div>
+                    <div class="imgPerso view overlay hm-red-light flex-center">
+                        <img src="images/isam.jpg" alt="photo perso" class="img-fluid img-thumbnail">
+                        <div class="mask flex-center">
+                            <p class="white-text">Isabelle</p> -->
+                        </div>                </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        <!-- <img class="img-thumbnail rounded img-fluid wow flipInY" id="isam" src="images/isam.jpg" alt="photo perso" /> -->
+                        
+                        <!-- <blockquote class="blockquote-reverse text-right">
+                            <h3>Développeur Web <br> & Applications Mobiles</h3>
+                            <span id="font-span">(en formation jusqu'au 31 mai 2018  <a id="simplon" href="http://simplon.co/" target="_blank" >@ Simplon.Co-Carcassonne</a>)</span>
+                            <footer class="blockquote-footer"><cite title="Vous avez un stage pour moi?">En recherche de stage du 12 février au 20 avril 2018</cite></footer>
+                        </blockquote> -->
+                        
+                    </div>    
+                </div>
             </div>
             
             
             
-            <a class="btn-floating btn-lg purple-gradient"><i class="fa fa-bolt"></i></a>
-            <a class="btn-floating peach-gradient"><i class="fa fa-leaf"></i></a>
-            <a class="btn-floating btn-sm blue-gradient"><i class="fa fa-star"></i></a>
             
-            <div class="container1">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <!--section info  -->
+            <div class="container-fluid container2">
                 <div class="row">
-                    <div class="col-lg-12">
-                        <!-- <div class="wow animated slideInLeft " data-wow-delay="6s" titre text-center>
-                            &#60 coder &#62 ISABELLE MUCKENSTURM &#60 /coder &#62
-                            
-                        </div>
-                        <div class="imgPerso view overlay hm-red-light flex-center">
-                            <img src="images/isam.jpg" alt="photo perso" class="img-fluid img-thumbnail">
-                            <div class="mask flex-center">
-                                <p class="white-text">Isabelle</p> -->
-                            </div>                </div>
-                            
-                            
-                            
-                            
-                            
-                            
-                            <!-- <img class="img-thumbnail rounded img-fluid wow flipInY" id="isam" src="images/isam.jpg" alt="photo perso" /> -->
-                            
-                            <!-- <blockquote class="blockquote-reverse text-right">
-                                <h3>Développeur Web <br> & Applications Mobiles</h3>
-                                <span id="font-span">(en formation jusqu'au 31 mai 2018  <a id="simplon" href="http://simplon.co/" target="_blank" >@ Simplon.Co-Carcassonne</a>)</span>
-                                <footer class="blockquote-footer"><cite title="Vous avez un stage pour moi?">En recherche de stage du 12 février au 20 avril 2018</cite></footer>
-                            </blockquote> -->
-                            
-                        </div>    
+                    <div class="col-6 info text-center test1">
+                        <!-- &#60 coder &#62 Isabelle Muckensturm &#60 /coder &#62 -->
                     </div>
-                </div>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                <!--section info  -->
-                <div class="container2">
-                    <div class="row">
-                        <div class="col-6 info text-center test1">
-                            <!-- &#60 coder &#62 Isabelle Muckensturm &#60 /coder &#62 -->
-                        </div>
-                        <div class="aboutMe text-center text-white font-up font-bold pb-1 wow fadeIn">
-                            <!-- <h1 class="">About Me</h1> -->
-                        </div>
+                    <div class="aboutMe text-justify text-white  p-3 wow fadeIn">
+                        <h2 class="font-bold font-up">Me concernant</h2>
+                        Mes débuts d'internet: à 25 ans (1993/1995) lorsque je vivais à Montréal (Canada). J'ai créé des sites avec des bannieres de pub qui me rapportaient de quoi boucler mes fins de mois, mais malheureusement pas assez pour vivre et j'ai dû me résoudre à trouver un emploi. Quelques années plus tard j'ai connu la Californie où j'ai repris contact avec le développement à titre perso pour aider un ami à faire son site professionnel. Et me voilà 3 ans plus tard revenue en France. Parlant couramment l'anglais, je n'ai pas eu de mal à travailler dans la location de voiture à Carcassonne. Bon contact avec la clientèle étrangère, ces onze années m'ont permis de ne pas faire un travail routinier. Puis à suivi une formation de gestion entrepreneuriale avant de découvrir la formation SIMPLON !</div>
                     </div>    
                 </div>
                 
@@ -357,18 +378,19 @@
                 
                 
                 
-                
+                <a href="#top" class="back-to-top">HAUT DE PAGE</a>
+
                 
                 <!-- Latest compiled and minified JavaScript -->
                 
                 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/js/mdb.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.4/js/mdb.min.js"></script>
                 
                 <script src="js/app.js"></script>
                 
             </body>
             </html>
-
+            
             

@@ -1,26 +1,7 @@
-/* html {
-    font-size: 1rem;
-}
-
-@include media-breakpoint-up(sm) {
-    html {
-        font-size: 1.2rem;
-    }
-}
-
-@include media-breakpoint-up(md) {
-    html {
-        font-size: 1.4rem;
-    }
-}
-
-@include media-breakpoint-up(lg) {
-    html {
-        font-size: 1.6rem;
-    }
-} */
 body{
+    display: flex;
     color: rgb(255, 255, 255);
+    font-size: 1.2em;
 }
 
 .bg{
@@ -31,19 +12,16 @@ body{
 	background-size: cover; /* version standardisée*/
 }
 
-.wow { 
-    visibility: visible;
-    backface-visibility: visible;
-}
 
 .navbar {
-    background-color: #282520;
-    /* position: fixed; */
-    top: 0;
+    background-color: rgba(45, 45, 54, 0.705);
     font-family: 'Sarpanch', sans-serif;
-    font-size: 1.3em;
+    font-size: 0.8em;
 }
 
+.nav-link:hover {
+    color: rgb(255, 255, 255);
+}
 
 footer.page-footer {
     background-color: #1C2331;
@@ -53,16 +31,12 @@ footer.page-footer {
 
 h5{
     font-family: 'Sarpanch', sans-serif;
-    font-size: 3em;
+    font-size: 1.6em;
 }
-
 .simpl{
 	font-style: italic;
-	font-weight: bold;
-}
-.blockquote-footer cite {
-    color: rgb(220, 224, 217);
-    font-size: 2em;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 .imgPerso{
@@ -70,28 +44,14 @@ h5{
     height: auto;
 }
 
-.accueil{
-    height: 850px;
-}
-
-.container1{
-    height: 850px;
-    background-color:linear-gradient(rgba(243, 241, 239, 0.788), 
-    rgba(179, 83, 38, 0.664));
-     /* rgb(129, 82, 58); */
-}
 .actu{
-    height: 700px;
-    background-color :#282520;
+    background-color :#282420;
 }
 
 .titre{
 	font-family: 'Sarpanch', sans-serif;
     font-size: 3.5em;
     margin-top: 5em;
-}
-cite{
-    font-size: 16px;
 }
 
 .test1{
@@ -101,15 +61,45 @@ cite{
 }
 
 .aboutMe{
-    height: 600px;
-    width: 50%;
-    background: rgba(146, 9, 201, 0.795);
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.8em;
 }
+
 .coder{
     font-family: 'Sarpanch', sans-serif;
-    font-size: 3em;
-    margin-top: 2em;
+    font-size: 1.4em;
 }
+
+#logoJS{
+	max-height: 40px;
+	max-width: 40px;
+}
+
+#logo{
+	max-height: 60px;
+	max-height: 60px;
+
+}
+
+#flag{
+	max-width: 60px;
+	max-height: 60px;
+}
+.img-fluid{
+	max-width: 60px;
+	max-height: 60px;
+}
+#xpepro{
+	max-width: 120px;
+	max-height: 100px;
+    border-radius: 30%;
+}
+.dipl{
+	font-style: italic;
+	font-size: 18px;
+}
+
+
 .back-to-top {
 	background-color: #282520;
 	color: white;
@@ -121,6 +111,7 @@ cite{
 	font-weight: bold;
 	text-decoration: none;
 }
-/* position: fixed;
-bottom: 0;
-right: 0; */
+
+[class*="container"]{
+	border-style:2px dashed black;
+}

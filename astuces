@@ -1,0 +1,47 @@
+
+.navbar {
+    background-color: #41403F;
+    /* position: fixed; */
+    top: 0;
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 1.3em;
+}
+
+.nav-item:hover {
+    color: black;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #1C2331;
+}
+
+font-up mb-3 font-bold 
+
+DarkGgrey-text
+
+        <!-- <div class="text-center">
+            <a class="btn btn-light-green btn-lg">2017</a> <a class="btn btn-grey btn-lg">2018</a>
+        </div> -->
+
+class="font-bold font-up"
+
+ text-white
+
+ hidden-md
+
+ visible-xs
+
+ <div class="bg-info clearfix">
+
+<button class="btn btn-secondary float-left">
+    <!-- Example Button floated left -->
+</button>
+<button class="btn btn-secondary float-right">
+    <!-- Example Button floated right -->
+</button></div>
